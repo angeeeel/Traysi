@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UserSelectionActivity"></activity>
+        <activity
+            android:name=".DriverActivity"
+            android:label="@string/title_activity_driver"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".PassengerActivity"
+            android:label="@string/title_activity_passenger"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UserSelectionActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
